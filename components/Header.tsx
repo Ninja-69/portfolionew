@@ -23,12 +23,12 @@ const SocialBadge: React.FC<SocialBadgeProps> = ({
     initial={{ opacity: 0, y: 15 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5, delay: 0.1 * index }}
-    className="flex items-center gap-1.5 px-3 py-2 rounded-full bg-[#161616] border border-white/10 whitespace-nowrap hover:bg-[#202020] transition-colors shadow-lg flex-shrink-0"
+    className="flex items-center gap-1 px-2 py-1.5 rounded-full bg-[#161616] border border-white/10 whitespace-nowrap hover:bg-[#202020] transition-colors shadow-lg flex-shrink-0"
   >
     <div className={`w-5 h-5 flex items-center justify-center rounded-[5px] text-white shadow-sm overflow-hidden flex-shrink-0 ${iconBg}`}>
       {icon}
     </div>
-    <span className="text-[11px] font-semibold text-white tracking-tight">
+    <span className="text-[10px] font-semibold text-white tracking-tight">
       {text}
     </span>
   </motion.a>
@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
       </div>
 
       {/* Social Section - Forced Single Line */}
-      <div className="flex flex-row flex-nowrap justify-center items-center gap-2 px-4 w-full overflow-hidden">
+      <div className="flex flex-row flex-nowrap justify-center items-center gap-1 px-4 w-full overflow-hidden">
         <SocialBadge
           index={0}
           text="@ninjaxhustlerr"
