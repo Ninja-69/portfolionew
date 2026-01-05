@@ -80,7 +80,7 @@ export const PortfolioCards: React.FC = () => {
         href="https://play.google.com/store/apps/details?id=com.heightx.app&hl=en_GB"
         logo={
           <img
-            src="/assets/heightx_logo.png"
+            src="assets/heightx_logo.png"
             alt="HeightX Logo"
             className="w-full h-full object-cover"
           />

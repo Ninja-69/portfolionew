@@ -41,7 +41,7 @@ export const Header: React.FC = () => {
       <div className="relative mb-10">
         <div className="w-[100px] h-[100px] rounded-full overflow-hidden border-2 border-white/5 shadow-2xl">
           <img
-            src="/assets/profile_ninja.jpg"
+            src="assets/profile_ninja.jpg"
             alt="Ninja Profile"
             className="w-full h-full object-cover"
           />

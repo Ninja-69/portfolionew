@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = [
-  "/assets/gallery_car.jpg",
-  "/assets/gallery_street.jpg",
-  "/assets/gallery_cockpit.jpg",
-  "/assets/gallery_watch_2.jpg",
-  "/assets/gallery_skyscraper.jpg",
-  "/assets/gallery_books.jpg",
+  "assets/gallery_car.jpg",
+  "assets/gallery_street.jpg",
+  "assets/gallery_cockpit.jpg",
+  "assets/gallery_watch_2.jpg",
+  "assets/gallery_skyscraper.jpg",
+  "assets/gallery_books.jpg",
 ];
 
 export const Gallery: React.FC = () => {
