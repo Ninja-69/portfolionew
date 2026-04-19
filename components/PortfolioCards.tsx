@@ -11,11 +11,11 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ title, description, logo, href, onClick }) => {
   const content = (
     <div
-      className="w-full p-4 bg-[#0d0d0d] flex flex-row items-center gap-[18px] transition-all duration-300 hover:bg-[#121212] cursor-pointer"
+      className="w-full p-3 bg-[#0d0d0d] flex flex-row items-center gap-[18px] transition-all duration-300 hover:bg-[#121212] cursor-pointer"
       onClick={!href ? onClick : undefined}
     >
       {/* Icon Container - Sharp 90 degree edges as requested */}
-      <div className="w-[62px] h-[62px] min-w-[62px] bg-[#000000] flex items-center justify-center overflow-hidden border border-white/[0.04]">
+      <div className="w-[54px] h-[54px] min-w-[54px] bg-[#000000] flex items-center justify-center overflow-hidden border border-white/[0.04]">
         {logo}
       </div>
 
@@ -46,7 +46,7 @@ const Card: React.FC<CardProps> = ({ title, description, logo, href, onClick }) 
 
 export const PortfolioCards: React.FC = () => {
   return (
-    <div className="w-full flex flex-col mt-7 gap-0.5">
+    <div className="w-full flex flex-col mt-4 gap-0.5">
       <Card
         title="10x Studio"
         description="We are an AI app studio based in NYC and currently recruiting great talent."

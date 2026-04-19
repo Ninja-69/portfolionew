@@ -36,10 +36,10 @@ const SocialBadge: React.FC<SocialBadgeProps> = ({
 
 export const Header: React.FC = () => {
   return (
-    <div className="flex flex-col items-center w-full pt-[80px] pb-8">
+    <div className="flex flex-col items-center w-full pt-10 pb-6">
       {/* Profile Image - Circular */}
-      <div className="relative mb-10">
-        <div className="w-[100px] h-[100px] rounded-full overflow-hidden border-2 border-white/5 shadow-2xl">
+      <div className="relative mb-6">
+        <div className="w-[90px] h-[90px] rounded-full overflow-hidden border-2 border-white/5 shadow-2xl">
           <img
             src="assets/profile_ninja.jpg"
             alt="Ninja Profile"

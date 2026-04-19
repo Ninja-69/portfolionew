@@ -11,7 +11,7 @@ const images = [
 
 export const Gallery: React.FC = () => {
   return (
-    <div className="w-full grid grid-cols-2 gap-2 px-5 mt-6 mb-20 max-w-[520px] mx-auto">
+    <div className="w-full grid grid-cols-2 gap-2 px-5 mt-4 mb-20 max-w-[520px] mx-auto">
       {images.map((src, index) => (
         <div
           key={index}

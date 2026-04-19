@@ -47,7 +47,7 @@ export const Hero: React.FC = () => {
   }, [text, isDeleting, phraseIndex, speed, phrases]);
 
   return (
-    <div className="flex flex-col items-center text-center w-full px-6 mb-8">
+    <div className="flex flex-col items-center text-center w-full px-6 mb-4">
       <h1 className="font-serif-italic text-[34px] text-white leading-[1.1] mb-5 tracking-tight whitespace-nowrap flex flex-row items-baseline gap-2 justify-center">
         <span className="shrink-0">I build</span>
         <span className="text-white relative inline-block min-w-[10px]">
