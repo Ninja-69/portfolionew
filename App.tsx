@@ -21,6 +21,14 @@ function App() {
         <Hero />
         <PortfolioCards />
         <Gallery />
+        
+        {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
+        <section className="w-full px-8 mt-12 mb-12 text-center opacity-20 hover:opacity-60 transition-opacity duration-500">
+          <p className="text-[11px] leading-relaxed text-white max-w-[300px] mx-auto font-light tracking-wide uppercase">
+            Adil Siddiqui (Ninja) is a tech entrepreneur based in India, 
+            focused on building the next generation of AI-driven products and startups.
+          </p>
+        </section>
       </motion.main>
 
       <CosmicFooter />
