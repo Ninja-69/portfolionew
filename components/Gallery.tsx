@@ -19,7 +19,7 @@ export const Gallery: React.FC = () => {
         >
           <img
             src={src}
-            alt={`Gallery Item ${index}`}
+            alt={`Adil Siddiqui Ninja Portfolio Project ${index + 1}`}
             className="w-full h-full object-cover grayscale transition-all duration-500 hover:grayscale-0"
           />
         </div>
