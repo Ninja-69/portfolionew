@@ -42,7 +42,7 @@ export const Header: React.FC = () => {
         <div className="w-[90px] h-[90px] rounded-full overflow-hidden border-2 border-white/5 shadow-2xl">
           <img
             src="assets/profile_ninja.jpg"
-            alt="Ninja Profile"
+            alt="Adil Siddiqui - Ninja Entrepreneur"
             className="w-full h-full object-cover"
           />
         </div>

@@ -81,7 +81,7 @@ export const PortfolioCards: React.FC = () => {
         logo={
           <img
             src="assets/heightx_logo.png"
-            alt="HeightX Logo"
+            alt="HeightX - Product by Adil Siddiqui"
             className="w-full h-full object-cover"
           />
         }
