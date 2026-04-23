@@ -24,6 +24,12 @@ export const ExperienceTimeline: React.FC = () => {
     {
       year: "2024 — 2025",
       role: "Founder",
+      company: "ApexContractor",
+      description: "Performance-driven agency operations."
+    },
+    {
+      year: "2024 — 2025",
+      role: "Founder",
       company: "Nexily & Kynnex",
       description: "Multi-venture digital product building."
     },
