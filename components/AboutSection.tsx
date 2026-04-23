@@ -4,8 +4,8 @@ export const AboutSection: React.FC = () => {
   return (
     <section id="about" className="w-full max-w-[420px] px-6 py-10 text-left border-t border-white/5 mt-2 bg-black/40 backdrop-blur-sm rounded-2xl mb-20 shadow-2xl">
       <div className="flex flex-col gap-6">
-        <div className="flex justify-between items-baseline mb-2">
-          <h2 className="text-[26px] font-serif-italic text-white tracking-tight">Adil Siddiqui</h2>
+        <div className="flex justify-between items-baseline">
+          <h2 className="text-[18px] font-bold text-white tracking-tight">Adil Siddiqui</h2>
           <span className="text-[10px] text-white/40 uppercase tracking-widest font-medium">Last updated: April 23, 2026</span>
         </div>
 
