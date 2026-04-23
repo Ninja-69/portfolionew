@@ -22,6 +22,12 @@ function App() {
         <PortfolioCards />
         <Gallery />
         
+        <div className="flex flex-col items-center mb-10">
+          <button className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors">
+            about me
+          </button>
+        </div>
+        
         {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
         <section className="w-full px-8 mt-12 mb-12 text-center opacity-20 hover:opacity-60 transition-opacity duration-500">
           <p className="text-[11px] leading-relaxed text-white max-w-[300px] mx-auto font-light tracking-wide uppercase">
