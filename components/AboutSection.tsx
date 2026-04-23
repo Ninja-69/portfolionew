@@ -31,7 +31,7 @@ export const AboutSection: React.FC = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-white/20"></span>
               Discord
             </a>
-            <a href="https://linkedin.com/in/adilsiddiqui" target="_blank" rel="noopener noreferrer" className="text-[13px] text-white/60 hover:text-white transition-colors flex items-center gap-2">
+            <a href="https://www.linkedin.com/in/adil-siddiqui-227474355" target="_blank" rel="noopener noreferrer" className="text-[13px] text-white/60 hover:text-white transition-colors flex items-center gap-2">
               <span className="w-1.5 h-1.5 rounded-full bg-white/20"></span>
               LinkedIn
             </a>
