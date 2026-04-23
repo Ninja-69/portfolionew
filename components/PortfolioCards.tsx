@@ -48,28 +48,21 @@ export const PortfolioCards: React.FC = () => {
   return (
     <div className="w-full flex flex-col mt-4 gap-0.5">
       <Card
-        title="10x Studio"
-        description="We are an AI app studio based in NYC and currently recruiting great talent."
-        href="https://www.10x.app/"
+        title="FundedAI"
+        description="Powering the next generation of traders with AI-driven chart analysis for stocks, crypto, and forex."
+        href="https://play.google.com/store/apps/details?id=in.funded.ai"
         logo={
-          <div className="relative w-full h-full flex items-center justify-center bg-black">
-            <svg className="w-9 h-9" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2C12 2 12.5 9.5 14 10.5C15.5 11.5 22 12 22 12C22 12 15.5 12.5 14 13.5C12.5 14.5 12 22 12 22C12 22 11.5 14.5 10 13.5C8.5 12.5 2 12 2 12C2 12 8.5 11.5 10 10.5C11.5 9.5 12 2 12 2Z" fill="url(#star-heavy)" />
-              <defs>
-                <linearGradient id="star-heavy" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                  <stop stopColor="white" />
-                  <stop offset="0.5" stopColor="#dcdcdc" />
-                  <stop offset="1" stopColor="#333333" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
+          <img
+            src="assets/funded_ai_logo.png"
+            alt="FundedAI Logo"
+            className="w-full h-full object-cover"
+          />
         }
       />
       <Card
         title="Ninja App Studio"
         description="Build your software startup idea in 20 days no matter how complex it is."
-        onClick={() => alert("coming soon.")}
+        href="https://www.ninjalabs.in/"
         logo={
           <span className="font-serif text-[42px] font-normal text-white select-none leading-none -mt-1">N</span>
         }
