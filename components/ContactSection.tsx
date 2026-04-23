@@ -3,22 +3,30 @@ import React from 'react';
 export const ContactSection: React.FC = () => {
   return (
     <section id="contact" className="w-[92%] max-w-[400px] mx-auto mb-24 text-left">
-      {/* External Heading */}
-      <div className="mb-8 px-2">
-        <h2 className="text-[22px] font-bold text-white tracking-tight flex items-center gap-2">
-          <svg className="w-5 h-5 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-            <polyline points="22 4 12 14.01 9 11.01" />
-          </svg>
-          Adil Siddiqui — Tech Entrepreneur
-        </h2>
-        <p className="mt-4 text-[15px] leading-relaxed text-white/50 font-normal">
-          I build high-performance products that solve real problems. Let's work together to bring your vision to life with precision and speed.
-        </p>
+      {/* Section Header Button */}
+      <div className="flex flex-col items-center mb-6">
+        <button 
+          className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 cursor-default"
+        >
+          contact
+        </button>
       </div>
 
       {/* Main Contact Card */}
       <div className="bg-[#050505]/90 backdrop-blur-md border border-white/5 rounded-[24px] p-8 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+        {/* Ninjafied Heading inside the box */}
+        <div className="mb-10">
+          <h2 className="text-[22px] font-bold text-white tracking-tight flex items-center gap-2">
+            <svg className="w-5 h-5 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Adil Siddiqui — Tech Entrepreneur
+          </h2>
+          <p className="mt-4 text-[14px] leading-relaxed text-white/40 font-normal">
+            I build high-performance products that solve real problems. Let's work together to bring your vision to life with precision and speed.
+          </p>
+        </div>
         {/* Availability Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-green-500/10 border border-green-500/20 rounded-full mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
