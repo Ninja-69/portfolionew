@@ -24,23 +24,27 @@ function App() {
         <PortfolioCards />
         <Gallery />
         
-        <div className="flex flex-row items-center justify-center gap-3 mb-6">
+        {/* About Section Header & Card */}
+        <div className="flex flex-col items-center mt-12 mb-4">
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
           >
             about
           </button>
+        </div>
+        <AboutSection />
+
+        {/* Experience Section Header & Card */}
+        <div className="flex flex-col items-center mt-4 mb-4">
           <button 
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
           >
-            work
+            experience
           </button>
         </div>
-
         <ExperienceTimeline />
-        <AboutSection />
         
         {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
         <section className="w-full px-8 mt-12 mb-12 text-center opacity-20 hover:opacity-60 transition-opacity duration-500">
