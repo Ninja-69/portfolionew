@@ -50,7 +50,7 @@ export const CosmicFooter: React.FC = () => {
         className="absolute inset-0 opacity-100"
         style={{
           background: `radial-gradient(
-            ellipse 140% 70% at 50% 80%,
+            ellipse 160% 80% at 50% 70%,
             rgba(230, 250, 252, 1) 0%,
             rgba(220, 245, 248, 0.98) 2%,
             rgba(205, 240, 245, 0.95) 4%,
@@ -77,7 +77,7 @@ export const CosmicFooter: React.FC = () => {
             rgba(14, 88, 140, 0.14) 46%,
             rgba(12, 76, 130, 0.12) 48%,
             rgba(10, 64, 120, 0.1) 50%,
-            rgba(0, 0, 0, 0) 55%
+            rgba(0, 0, 0, 0) 65%
           )`
         }}
       />
