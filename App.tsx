@@ -8,6 +8,7 @@ import { CosmicFooter } from './components/CosmicFooter';
 import { BottomNav } from './components/BottomNav';
 import { AboutSection } from './components/AboutSection';
 import { ExperienceTimeline } from './components/ExperienceTimeline';
+import { ContactSection } from './components/ContactSection';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -45,6 +46,7 @@ function App() {
           </button>
         </div>
         <ExperienceTimeline />
+        <ContactSection />
         
         {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
         <section className="w-full px-8 mt-12 mb-12 text-center opacity-20 hover:opacity-60 transition-opacity duration-500">
