@@ -6,6 +6,7 @@ import { PortfolioCards } from './components/PortfolioCards';
 import { Gallery } from './components/Gallery';
 import { CosmicFooter } from './components/CosmicFooter';
 import { BottomNav } from './components/BottomNav';
+import { AboutSection } from './components/AboutSection';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -23,10 +24,15 @@ function App() {
         <Gallery />
         
         <div className="flex flex-col items-center mb-10">
-          <button className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors">
+          <button 
+            onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+            className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
+          >
             about me
           </button>
         </div>
+
+        <AboutSection />
         
         {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
         <section className="w-full px-8 mt-12 mb-12 text-center opacity-20 hover:opacity-60 transition-opacity duration-500">
