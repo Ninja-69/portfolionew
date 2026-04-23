@@ -42,7 +42,7 @@ export const ExperienceTimeline: React.FC = () => {
   ];
 
   return (
-    <section id="work" className="w-[92%] max-w-[400px] mx-auto px-7 py-10 text-left bg-[#050505]/90 backdrop-blur-md border border-white/5 rounded-[24px] mb-20 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
+    <section id="work" className="w-[92%] max-w-[400px] mx-auto px-7 py-10 text-left bg-[#050505]/90 backdrop-blur-md border border-white/5 rounded-[24px] mb-8 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
       <div className="flex flex-col gap-8">
         <div className="flex justify-between items-baseline">
           <h2 className="text-[18px] font-bold text-white tracking-tight uppercase tracking-widest">Experience</h2>

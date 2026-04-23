@@ -25,7 +25,7 @@ function App() {
         <Gallery />
         
         {/* About Section Header & Card */}
-        <div className="flex flex-col items-center mt-12 mb-4">
+        <div className="flex flex-col items-center mt-6 mb-2">
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
@@ -36,7 +36,7 @@ function App() {
         <AboutSection />
 
         {/* Experience Section Header & Card */}
-        <div className="flex flex-col items-center mt-4 mb-4">
+        <div className="flex flex-col items-center mt-2 mb-2">
           <button 
             onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
