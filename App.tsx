@@ -23,7 +23,7 @@ function App() {
         <PortfolioCards />
         <Gallery />
         
-        <div className="flex flex-col items-center mb-10">
+        <div className="flex flex-col items-center mb-4">
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
