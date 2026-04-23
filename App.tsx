@@ -7,6 +7,7 @@ import { Gallery } from './components/Gallery';
 import { CosmicFooter } from './components/CosmicFooter';
 import { BottomNav } from './components/BottomNav';
 import { AboutSection } from './components/AboutSection';
+import { ExperienceTimeline } from './components/ExperienceTimeline';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -23,15 +24,22 @@ function App() {
         <PortfolioCards />
         <Gallery />
         
-        <div className="flex flex-col items-center mb-4">
+        <div className="flex flex-row items-center justify-center gap-3 mb-6">
           <button 
             onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
           >
-            about me
+            about
+          </button>
+          <button 
+            onClick={() => document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' })}
+            className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors"
+          >
+            work
           </button>
         </div>
 
+        <ExperienceTimeline />
         <AboutSection />
         
         {/* Subtle Bio for SEO/AI Ranking - Minimalist and non-intrusive */}
