@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
       </h1>
 
       <button className="px-5 py-1.5 bg-[#1a1a1a] rounded-full text-[12px] font-medium text-white/90 border border-white/5 hover:bg-[#222] transition-colors mt-2">
-        about me
+        featured
       </button>
     </div>
   );
