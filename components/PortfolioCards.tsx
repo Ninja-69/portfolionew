@@ -34,7 +34,7 @@ const Card: React.FC<CardProps> = ({ title, description, logo, href, onClick }) 
   return (
     <div className="w-[93%] max-w-[420px] mx-auto mb-2 overflow-hidden">
       {href ? (
-        <a href={href} target="_blank" rel="noopener noreferrer" className="block">
+        <a href={href} target={href.startsWith('#') ? undefined : "_blank"} rel={href.startsWith('#') ? undefined : "noopener noreferrer"} className="block">
           {content}
         </a>
       ) : (
